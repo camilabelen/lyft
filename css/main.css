@@ -1,3 +1,311 @@
 /*
  * Estilos de tu proyecto
  */
+
+
+body {
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+nav{
+	width: 100%;
+	height: 110px;
+	color: #FFF;
+	position: fixed;
+}
+
+nav img{
+	width: 63px;
+	margin-left: 80px;
+	padding-top: 30px;
+	float: left;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-left: 780px;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	line-height: 40px;
+	font-size: 1.2em;
+	font-weight: 300;
+}
+
+li{
+	height: 40px;
+	width: 100px;
+	margin: 0;
+	padding-left: 0px;
+	display: inline-block;
+	text-align: center;
+}
+
+li:last-child{
+	border: 1px solid #FFF;
+	border-radius: 5px;
+	padding: 
+}
+
+a{
+	display: block;
+	width: 70px;
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover{
+	color: #ff00bf;
+}
+
+/*Seccion home*/
+
+.home{
+	background-image:url(../assets/images/hero.gif);
+	background-size: cover;
+	background-position: 0 -110px ;
+	height: 600px;
+}
+
+/*.gradient{
+	background:linear-gradient(transparent, #76278f);
+}*/
+
+
+/*Formulario sign up*/
+
+.sign-up{
+	text-align: left;
+	background-color: #FFF;
+	width: 440px;
+	height: 300px;
+	float: left;
+	margin-top: 110px;
+	margin-left: 790px;
+	padding: 60px 61px 60px 60px;
+}
+
+.sign-up h1{
+	text-transform: uppercase;
+	font-size: 2.65em;
+	line-height: 1.1em;
+	color: #490085;
+	margin-top: 0;
+	font-weight: 600;
+	letter-spacing: 0.7px;
+	margin-bottom: 0;
+}
+
+.sign-up #a1{
+	text-transform: uppercase;
+	color: #490085;
+	font-weight: 300;
+	font-size: 0.91em;
+	letter-spacing: 2.2px;
+}
+
+input{
+	width: 450px;
+	border: none;
+	border-bottom: 1px solid #490085;
+	font-size: 1.1em;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+input:focus{
+	outline:0;
+}
+
+
+#button button{
+	float: left;
+	margin-top: 15px;
+	font-family: 'Montserrat',sans-serif;
+	background-color: #ff00bf;
+	color: #FFF;
+	border:0;
+	font-weight: 400;
+	font-size: 1em;
+	padding: 12px 19px 14px 19px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	letter-spacing: 1px;
+}
+
+#button a{
+	float: left;
+	width: 160px;
+	font-weight: 300;
+	color: #728099;	
+	text-decoration: underline;
+	margin-top: 27px;
+	margin-left: 20px;
+}
+
+.small-text{
+	display: inline-block;
+	line-height: 1.4em;
+	
+}
+
+.small-text #a2, .small-text a{
+	font-size: 0.6em;
+	color: #ABAFC2;
+}
+
+
+/**/
+.seccion2{
+    background: linear-gradient(#6c3b84,#2b1e66);
+	width: 100%;
+	height: 600px;
+}
+
+.text{
+	float: left; 
+	color: #FFF;
+	width: 450px;
+	margin-left: 160px;
+}
+
+.text h2{
+	font-size: 1.8em;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+	margin-top:60px;
+}
+
+.text h3{
+	font-size: 1.8em;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin-top: 0;
+}
+
+.text p{
+	font-size: ;
+	font-weight: 300;
+	line-height: 1.5em;
+}
+
+.seccion2 img{
+	width: 500px;
+	margin-top: 30px;
+	margin-left: 60px;
+}
+
+/* Videos*/
+.contact1{
+
+}
+
+/*primer video*/
+#a-d{
+	float:left;
+	width: 330px;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+#video1{
+	float: left;
+	margin-left: 116px;
+	margin-bottom: -4px;
+}
+
+#a-d h5, #a-d h2{
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+/*segundo video*/
+
+#b-d{
+	float:left;
+	width: 330px;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+#video2{
+	float: left;
+	margin-bottom: -4px;
+	
+}
+
+#b-d h5, #b-d h2{
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+/*tercer video*/
+
+#c-d{
+	float:left;
+	width: 330px;
+	margin-top: 510px;
+	margin-left: -1180px;
+}
+
+#video3{
+	float: left;
+	margin-left: 110px;
+	margin-bottom: -4px;
+}
+
+#c-d h5, #c-d h2{
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+/*pie de página*/
+
+footer{
+	float: left;
+	width: 100%;
+	height: 450px;
+	background-color: #333447;
+	color:#FFF;
+}
+
+.first-column, .second-column, .third-column, .fourth-column{
+	float: left;
+	width: 150px;
+	margin-top: 50px;
+	margin-left: 120px;
+	line-height: 1.7em;
+}
+
+.first-column{
+	margin-left: 150px;
+}
+
+.fourth-column img{
+	margin-top: 30px;
+	width: 130px;
+}
+
+footer h4{
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 1.4em;
+}
+
+footer p{
+	font-weight: 400;
+	font-size: 1em;
+}
+
+.icons{
+	margin-top: 50px;
+	float: left;
+	font-size: 15px;
+}
