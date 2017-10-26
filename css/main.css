@@ -16,6 +16,7 @@ nav{
 	height: 110px;
 	color: #FFF;
 	position: fixed;
+	background-color: rgba(46, 18, 68, 0.6);
 }
 
 /*logotipo*/
@@ -27,7 +28,6 @@ nav img{
 }
 
 /*botones*/
-
 ul{
 	list-style: none;
 	margin: 0;
@@ -107,6 +107,7 @@ a:hover{
 	letter-spacing: 2.2px;
 }
 
+/*input numero telefono*/
 input{
 	width: 450px;
 	border: none;
@@ -121,7 +122,7 @@ input:focus{
 	outline:0;
 }
 
-
+/*boton formulario*/
 #button button{
 	float: left;
 	margin-top: 15px;
@@ -272,6 +273,7 @@ footer{
 	color:#FFF;
 }
 
+/*columnas del footer*/
 .first-column, .second-column, .third-column, .fourth-column{
 	float: left;
 	width: 150px;
@@ -284,6 +286,7 @@ footer{
 	margin-left: 150px;
 }
 
+/*imagenes app*/
 .fourth-column img{
 	margin-top: 30px;
 	width: 130px;
@@ -300,6 +303,7 @@ footer p{
 	font-size: 1em;
 }
 
+/*iconos*/
 .icons{
 	float: left;
 	width: 800px;
@@ -313,34 +317,34 @@ footer p{
 footer span{
 	text-align: center;
 	float: left;
-	margin-left: 600px;
+	margin-left: 570px;
 	margin-right: 40px;
 	padding:5px;
 
 }
 
 span:first-child{
-	margin-left: 290px;
+	margin-left: 280px;
 }
 
 .icon-facebook, .icon-instagram, .icon-twitter{
 	margin-right: 30px;
 	margin-left: 30px;
-	padding-bottom: -5px; 
+	padding-bottom: -10px; 
 	border: 1px solid #FFF;
 	height: 30px;
   	width: 30px;
   	display: table-cell;
   	text-align: center;
-   	border-radius: 50%;
+  	border-radius: 50%;
 }
-
+/*linea debajo de los iconos*/
 footer hr{
 	margin-top: 70px;
 	border: 0;
 	border-bottom: 1px solid #FFF;
 }
-
+/*hover elementos del footer*/
 footer p:hover{
 	cursor: pointer;
 	color: #A008AB;
