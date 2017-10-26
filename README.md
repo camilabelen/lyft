@@ -90,3 +90,22 @@ Este reto será evaluado sobre lo siguiente:
 * Indentación
 * Archivo `README.md` actualizado y correctamente redactado
 * Uso de comentarios para hacer tu código más legible
+
+
+# Mi repositorio
+
+El repositorio cuenta con el archivo index.html, una carpeta css con main.css, imagenes e iconos.
+
+Para desarrollar el maquetado de la página Lyft usé la etiqueta _nav_ para definir el menú con posición fija y para las demás secciones de la página usé la etiqueta _section_ y para el pie de página _footer_.
+
+1. En la etiqueta _nav_ hice uso de una lista desordenada con _ul_ y _li_ para los botones con texto.
+
+2. La primera _section_ con clase _home_ contiene una etiqueta _div_ con clase _sign-up_ que a su vez es contenedor de todos los elementos presentes en el formulario.
++ Esta _section_ tiene definido un _background-image_.
+
+3. La segunda _section_ contiene dos _div_: el primero en el que está el texto con las etiquetas _h2_, _h3_ y _p_; Mientras que el segundo _div_ contiene la imagen.
++_Estos elementos, tanto como los anteriores y los siguientes fueron modificados en su posición con la propiedad float y su valor left._
+
+4. La siguiente _section_ contiene tres _div_ que a su vez cada uno contiene dos _div_ uno para el texto y otro para el video, ordenados según el orden en la página (de izquierda a derecha).
+
+5. La ultima sección de la página, etiqueta _footer_ contiene un div por cada columna (4 _div_) y además el _div_ contenedor de los iconos de redes sociales.
